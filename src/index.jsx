@@ -6,6 +6,8 @@ import About from "./pages/About"
 import Lodging from "./pages/Lodging"
 import Error from "./components/Error"
 import Header from "./components/Header"
+import Footer from "./components/Footer"
+import "./styles/Home.css"
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +19,7 @@ ReactDOM.render(
         <Route path="/about" element={<About />} />
         <Route path="*" element={<Error />} />
       </Routes>
+      <Footer />
     </Router>
   </React.StrictMode>,
   document.getElementById("root")
