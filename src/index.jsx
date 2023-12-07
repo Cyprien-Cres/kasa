@@ -7,7 +7,7 @@ import Lodging from "./pages/Lodging"
 import Error from "./components/Error"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
-import "./styles/Home.css"
+import "./styles/index.scss"
 
 ReactDOM.render(
   <React.StrictMode>

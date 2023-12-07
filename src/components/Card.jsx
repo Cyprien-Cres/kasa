@@ -1,5 +1,3 @@
-import "../styles/Card.css"
-
 function Card({ title, cover }) {
   return (
     <li className="card">
