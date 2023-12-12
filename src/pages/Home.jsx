@@ -4,7 +4,7 @@ import Card from "../components/Card"
 
 function Home() {
   return (
-    <div className="home-page">
+    <div className="page">
       <Banner />
       <ul className="card-list">
         {lodgingList.map(({ id, cover, title }) => (

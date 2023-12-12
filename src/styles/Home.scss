@@ -1,9 +1,33 @@
-.home-page {
+.page {
   max-width: 1240px;
   margin: 0px 20px 21px 20px;
   font-family: "Montserrat", sans-serif;
+  .banner {
+    height: 111px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 10px;
+    background-image: url("../assets/image-source-1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    @media screen and (min-width: 1024px) {
+      max-width: 1240px;
+      height: 223px;
+      border-radius: 25px;
+    }
+  }
+
   .card-list {
     padding: 0;
+
+    .card-container {
+      margin-top: 20px;
+      height: 255px;
+    }
 
     @media screen and (min-width:768px) {
       display: grid;
@@ -20,12 +44,8 @@
       column-gap: 50px;
     }
   }
-  @media screen and (min-width:1024px) {
-    margin: 0 auto;
-    max-width: 1024px;
-  }
 
-  @media screen and (min-width:1260px) {
+  @media screen and (min-width:1240px) {
     margin: 0 auto;
     max-width: 1240px;
   }
