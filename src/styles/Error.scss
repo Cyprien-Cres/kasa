@@ -1,0 +1,39 @@
+.error-container {
+  font-family: 'Montserrat' sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #FF6060;
+  .title-error {
+    font-size: 96px;
+    margin: 113px 0 0 0;
+    @media screen and (min-width: 1024px) {
+      font-size: 288px;
+      margin: 139px 0 0 0;
+    }
+  }
+  .text {
+    font-weight: 500;
+    font-size: 18;
+    margin-top: 113px;
+
+    @media screen and (min-width: 1024px) {
+      font-size: 36px;
+      margin-top: 139px;
+    }
+  }
+  .link {
+    margin-top: 113px;
+    margin-bottom: 113px;
+    font-size: 14px;
+    &:visited {
+      color: #FF6060;
+    }
+    @media screen and (min-width: 1024px) {
+      margin-top: 139px;
+      margin-bottom: 139px;
+      font-size: 18px;
+    }
+  }
+}
