@@ -1,4 +1,4 @@
-import { lodgingList } from "../datas/lodgingList.js"
+import { lodgingList } from "../datas/lodgingList"
 import Banner from "../components/Banner"
 import Card from "../components/Card"
 
@@ -7,9 +7,9 @@ function Home() {
     <div className="page">
       <Banner />
       <ul className="card-list">
-        {lodgingList.map(({ id, cover, title }) => (
-          <div key={id} className="card-container">
-            <Card cover={cover} title={title} />
+        {lodgingList.map((data) => (
+          <div key={data.id} className="card-container">
+            <Card id={data.id} cover={data.cover} title={data.title} />
           </div>
         ))}
       </ul>
