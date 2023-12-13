@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom"
+import { useParams, useNavigate, Navigate } from "react-router-dom"
 import { lodgingList } from "../datas/lodgingList.js"
 import Slideshow from "../components/Slideshow.jsx"
 import Tags from "../components/Tags.jsx"
@@ -15,6 +15,7 @@ function Lodging() {
   const lodgingEquipment = lodgingPage.equipments.map((equipment, index) => {
     return <li key={index}>{equipment}</li>
   })
+
   return (
     <div className="page lodging-page">
       {lodgingPage ? (
@@ -52,7 +53,9 @@ function Lodging() {
             <Collapse title="Équipements" text={lodgingEquipment} />
           </div>
         </div>
-      ) : null}
+      ) : (
+        <Navigate to="/404" replace={true} />
+      )}
     </div>
   )
 }
