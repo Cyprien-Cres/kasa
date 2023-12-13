@@ -17,20 +17,20 @@
       height: 68px;
     }
     @media screen and (min-width: 1240px) {
-      margin-right: 0px;
+      margin-left: 0px;
     }
   }
   .nav-header {
     margin-right: 20px;
     font-weight: 500;
-    font-family: 12px;
+    font-size: 12px;
     @media screen and (min-width: 1024px) {
       margin-right: 20px;
-      font-family: 24px;
+      font-size: 24px;
     }
     @media screen and (min-width: 1240px) {
       margin-right: 0px;
-      font-family: 24px;
+      font-size: 24px;
     }
   }
   .li-header {
@@ -38,7 +38,6 @@
     color: #ff6060;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 12px;
     &:hover {
       text-decoration: underline;
     }

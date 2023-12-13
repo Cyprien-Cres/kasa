@@ -1,0 +1,67 @@
+.slider-container {
+  position: relative;
+  height: 255px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  @media screen and (min-width: 1240px) {
+    height: 415px;
+    border-radius: 25px;
+  }
+  .slider {
+    position: relative;
+    height: 255px;
+    @media screen and (min-width: 1240px) {
+      height: 415px;
+    }
+    .button-left {
+      position: absolute;
+      border: none;
+      background-color: transparent;
+      height: 100%;
+      padding-left: 6px;
+      @media screen and (min-width: 1240px) {
+        padding-left: 23px;
+      }
+    }
+    .button-right {
+      position: absolute;
+      border: none;
+      background-color: transparent;
+      height: 100%;
+      right: 0%;
+      padding-right: 6px;
+      @media screen and (min-width: 1240px) {
+        padding-right: 23px;
+      }
+    }
+    .fa-solid {
+      font-size: 24px;
+      color: white;
+      @media screen and (min-width: 1240px) {
+        font-size: 80px;
+      }
+    }
+    .slider-img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      @media screen and (min-width: 1240px) {
+        border-radius: 25px;
+      }
+    }
+    .slide-number {
+      max-width: 1240px;
+      position: absolute;
+      right: 50%;
+      color: transparent;
+      bottom: 0px;
+      margin-bottom: 29px;
+      @media screen and (min-width: 1240px) {
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+  }
+}
