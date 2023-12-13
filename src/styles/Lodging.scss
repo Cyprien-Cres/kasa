@@ -1,0 +1,62 @@
+.lodging-page {
+  font-family: 'Montserrat' sans-serif;
+  .lodging-content {
+    .title-lodging-page {
+      font-size: 18px;
+      font-weight: 500;
+      color: #FF6060;
+      @media screen and (min-width: 1024px) {
+        font-size: 36px;
+        margin-bottom: 9px;
+      }
+    }
+    .location-lodging-page {
+      font-size: 14px;
+      font-weight: 500;
+      color: #FF6060;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      @media screen and (min-width: 1240px) {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+    }
+    .rating-and-host {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 16px;
+
+      .star {
+        height: 18px;
+        width: 18px;
+        @media screen and (min-width: 1024px) {
+          height: 30px;
+          width: 30px;
+          margin-right: 4px;
+          margin-top: 20px;
+        }
+      }
+
+      @media screen and (min-width: 1024px) {
+        flex-direction: column-reverse;
+      }
+    }
+    @media screen and (min-width: 1024px) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  
+  .lodging-collapse {
+    @media screen and (min-width: 1240px) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 25px;
+      margin-bottom: 50px;
+    }
+  }
+
+}

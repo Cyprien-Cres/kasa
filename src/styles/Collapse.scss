@@ -1,7 +1,7 @@
 .collapse-container {
   background-color: #f6f6f6;
   border-radius: 5px;
-  max-width: 1024px;
+  max-width: 1240px;
   margin: 0 auto;
   .collapse {
     background-color: #FF6060;
@@ -18,13 +18,13 @@
     @media screen and (min-width: 622px) {
       height: 52px;
       font-size: 18px;
-
     }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1240px) {
       height: 54px;
       font-size: 24px;
       max-width: 1240px;
       padding: 0px 17px 0px 17px;
+      margin-top: 0px;
     }
   }
   
@@ -34,6 +34,9 @@
       font-size: 12px;
       margin: 13px 0 0 0;
       color: #FF6060;
+      li {
+        list-style-type: none;
+      }
       @media screen and (min-width: 768px) {
         font-size: 18px;
   
@@ -42,6 +45,10 @@
         font-size: 18px;
       }
     }
+  }
+  @media screen and (min-width: 1240px) {
+    margin: 0;
+    width: 582px;
   }
 }
 

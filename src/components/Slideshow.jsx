@@ -1,7 +1,6 @@
 import { useState } from "react"
 
 const Slideshow = (data) => {
-  console.log(data)
   const [index, setIndex] = useState(0)
   const length = data.pictures.length
 
