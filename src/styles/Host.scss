@@ -1,0 +1,27 @@
+.host-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .host-name {
+    width: 93px;
+    text-align: right;
+    color: #FF6060;
+    margin: 0;
+    font-size: 12px;
+    @media screen and (min-width: 1024px) {
+      font-weight: 500;
+      font-size: 18px;
+    }
+  }
+  .host-picture {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    margin-left: 11px;
+    object-fit: cover;
+    @media screen and (min-width: 1024px) {
+      width: 64px;
+      height: 64px;
+    }
+  }
+}
