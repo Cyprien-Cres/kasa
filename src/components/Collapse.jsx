@@ -14,14 +14,14 @@ const Collapse = ({ title, text }) => {
           <div className="collapse">
             <div>{title}</div>
             <div>
-              <i class="fa-solid fa-chevron-up"></i>
+              <i className="fa-solid fa-chevron-up"></i>
             </div>
           </div>
         ) : (
           <div className="collapse">
             <div>{title}</div>
             <div>
-              <i class="fa-solid fa-chevron-down"></i>
+              <i className="fa-solid fa-chevron-down"></i>
             </div>
           </div>
         )}
