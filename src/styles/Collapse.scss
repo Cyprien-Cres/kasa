@@ -24,7 +24,6 @@
       font-size: 24px;
       max-width: 1240px;
       padding: 0px 17px 0px 17px;
-      margin-top: 0px;
       border-radius: 10px;
     }
   }
@@ -49,8 +48,20 @@
   }
   @media screen and (min-width: 1240px) {
     margin: 0;
-    width: 582px;
+
     border-radius: 10px;
   }
 }
 
+.lodging-page {
+  .collapse-container {
+    .collapse {
+      @media screen and (min-width: 1240px) {
+        margin-top: 0;
+      }
+    }
+    @media screen and (min-width: 1240px) {
+      width: 582px;
+    }
+  }
+}
